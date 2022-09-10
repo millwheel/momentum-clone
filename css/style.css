@@ -2,6 +2,11 @@
     display: none;
 }
 
+::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
 body{
     padding-top: 30px;
 }
@@ -61,9 +66,11 @@ body{
 }
     #login-form input{
         text-align: center;
-        color:white;
+        color:gold;
         font-size: 1.3rem;
-        background-color: rgba(255,255,255,0.2);
+        width:400px;
+        height: 40px;
+        background-color: rgba(255,255,255,0.1);
     }
     
 
@@ -100,7 +107,7 @@ body{
 }
 
 #todo-form input{
-    color:white;
+    color:gold;
     font-size: 1.1rem;
     
     width: 240px;
@@ -137,4 +144,3 @@ body{
     #todo-list button:hover{
         cursor:pointer;
     }
-
